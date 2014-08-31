@@ -1,0 +1,90 @@
+/* Theme for Jmath International Website Used in five years. lalala
+*/
+
+/**
+ *Table of Contents
+ *1.0 - Body
+ *2.0 - Header
+ *3.0 - Link
+ *
+ *_______________________________________________
+**/
+
+
+
+/**
+ *1.0 body
+ *_______________________________________________
+ **/
+
+
+body {
+	color: #2b2b2b;
+	background-color:#fff589;
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+	line-height: 1.5;
+	vertical-align: baseline;
+}
+
+/**
+ *2.0 headings
+ *_______________________________________________
+ **/
+
+h1{
+	color: orange;
+	font-weight:900;
+	font-size:20px;
+  	margin:4% 40% 3% 40%;
+  	border:solid green 2.5px;
+  	text-align:center;
+
+}
+
+h2{
+	color:green;
+	font-weight:800;
+	margin:2% 0.5% 1% 0.5%;
+	text-align:left;
+}
+
+h3{
+	font-weight:700;
+	margin: 0.6% 1%
+}
+
+ul,
+li,
+p{
+	font-size:12px;
+	margin: 0.5% 1.5%;
+}
+
+ul {
+	list-style: disc;
+	color:#42444E;
+}
+
+/** 3.0 link
+*________________________________________________
+*/
+
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #F07013;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
