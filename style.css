@@ -88,3 +88,24 @@ a:hover {
 a:active {
     color: #0000FF;
 }
+
+.nav li {
+  float: left;
+}
+
+.clear-fix:before,
+.clear-fix:after {
+  content: "";
+  display: block;
+}
+.clear-fix:after {
+  clear: both;
+}
+.clear-fix {
+  clear: both;
+  *zoom: 1;
+}
+
+ul.my-inline-block li{
+  display: inline-block;
+}
